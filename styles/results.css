@@ -1,0 +1,87 @@
+
+.results{
+    background: #f1f2f8;
+}
+.adv{
+    border:1px solid teal;
+    color: teal;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+}
+.button{
+    background: rgb(255, 255, 255) ;
+    color: #5fb2ee;
+    border:1px solid grey;
+}
+
+.results-items{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+.results-items .card{
+    height: 100%;
+}
+
+.btn-info{
+    background-color: #56a498;
+}
+.results-items>.col,
+.results-items>.col-lg-8{
+    padding: 0;
+}
+.results-items .card{
+    position: relative;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    z-index: 0;
+}
+.results-items .first::after,
+.results-items .first::before,
+.results-items .second::after,
+.results-items .second::before{
+    content: '';
+    background-color: #f1f2f8;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: -10px;
+    right: -10px;
+    z-index: 99;
+}
+.results-items .first::after{
+    top: auto;
+    bottom: -10px;
+    
+}
+.time{
+    font-size: 1.7rem;
+    margin-bottom: 0;
+}
+.duration hr{
+    margin-bottom: 0.8rem;
+    height: 2px;
+    background-color: black;
+
+}
+.duration .col,
+.duration .col-auto{
+    padding:0;
+
+}
+.duration i{
+    margin-top: 9px;
+    margin-left: 4px;
+}
+.duration .type{
+    color: green;
+
+}
+.price{
+    font-size: 1.4rem;
+    font-weight: bold;
+
+}
+
